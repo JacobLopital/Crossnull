@@ -1,0 +1,45 @@
+<html>
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <title>Крестики-нолики</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="newcss.css">  
+  <script src="https://code.jquery.com/jquery-3.1.0.js"></script>
+	<script type="text/javascript" src="script.js"></script>
+</head>
+
+<body> <!-- onload="reloadPlane();"> -->
+    <p id="reload">Перезагрузить</p>
+    <p id="newGame">Новая игра</p>
+    <div id="game">
+        <div id="canvasDiv">
+            <canvas id="canvas" width=500 height="500">Обновите браузер.</canvas>
+        </div>
+        <div id="settingsDiv">
+            <div id="controllers">
+                <p>Размер поля</p>
+                <p id="sideValue">1</p>
+                <span>5</span>
+                <input type="range" class='input' id="hor" min="5" max="10" step="1" value="8">
+                <span>10</span>
+                <p>Размер клетки</p>
+                <p id="sizeValue">1</p>
+                <span>30</span>
+                <input type="range" class='input' id="sizeRect" min="30" max="90" step="1" value="60">
+                <span>90</span>
+                <p>
+                    <label>Игра с компьютером
+                        <input type="checkbox" id="AI" checked class="change">
+                    </label>
+                </p>
+                <p id="start">Старт</p>
+            </div>
+        </div>
+    </div>
+    <p id="title">Крестики-нолики</p>
+    <p id="cong"></p>
+    <script type="text/javascript" src="jquery-latest.min.js"></script>
+</body>
+
+</html>

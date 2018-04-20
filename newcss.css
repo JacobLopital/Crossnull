@@ -1,0 +1,89 @@
+@import url(http://fonts.googleapis.com/css?family=Exo+2:400,200,100,300,500,600,700&subset=latin,cyrillic);
+@import url(https://fonts.googleapis.com/css?family=Roboto:100,400,300,500,700,900&subset=latin,cyrillic-ext,cyrillic);
+@import url('https://fonts.googleapis.com/css?family=Lobster:100,400,300,500,700,900&subset=latin,cyrillic-ext,cyrillic');
+#aaa{
+	position:fixed;
+	top:100px;
+}
+#settingsDiv {
+    opacity: 0.9;
+	display:none;
+	
+}#canvasDiv {
+	
+}
+#screen3 {
+    display: ;
+}
+canvas {
+	position:absolute;	
+}
+#controllers {
+	position:absolute;	
+}
+#game div {
+	background-color: white;
+	text-align: center;
+	position:absolute;
+	width:100%;
+	height:80%;
+	margin-left:auto;
+	margin-right:auto;
+}
+#game {
+}
+body,html {
+	padding:0px;
+	margin:0px;
+	font-family: roboto;
+	font-size: 20pt;
+}
+#game div div p {
+	font-weight: 700;
+}
+#game div div span {
+	display:inline-block;
+	padding:12px;
+	font-weight: 300;
+	font-size: 15pt;
+}
+#title, #reload, #cong{	
+	text-align: center;
+	position:absolute;	
+	font-family: lobster;
+	font-size: 80pt;
+	width:100%;
+	transition: 0.5s;
+	text-shadow: -6px 0 white, 0 6px white, 6px 0 white, 0 -6px white;
+	z-index:100;
+}
+#reload{
+	top:-30%;
+	font-size: 15pt;
+	cursor:pointer;
+	line-height: 0pt;
+}
+#title, #cong{
+	top:30%;
+}
+#start{
+	transition: 0.7s;
+	font-family: lobster;
+	font-size: 59pt;
+	cursor:pointer;
+	margin-top: 0;
+}
+#sideValue, #sizeValue {
+	font-weight: 300 !important;
+	font-size: 17pt;
+	margin:0 !important;
+}
+#newGame {
+	position: absolute;
+	left:25px; 
+	top:-100px;
+	font-family: lobster;
+	z-index:100;
+	cursor:pointer;
+	transition: 0.5s;
+}
